@@ -1,0 +1,10 @@
+.mockup {
+    height: 640px;
+    background: 
+    url(sodabottle.jpg) no-repeat,
+    url(color.jpg) 360px 0;
+    background-blend-mode: multiply;
+    -webkit-mask-image: url(sodabottle.jpg);
+    -webkit-mask-repeat: no-repeat;
+    
+}

@@ -1,0 +1,20 @@
+h3{
+    font-size: 1rem;
+}
+
+h3.in-view{
+    animation: 2s slidedown-Animation both;
+}
+@keyframes slidedown-Animation {
+    from{
+        opacity: 0;
+        transform: translateX(100px) 
+    }to{
+        opacity: 1;
+        transform: translateX(0px) 
+    }
+}
+
+body{
+    height: 500vh;
+}

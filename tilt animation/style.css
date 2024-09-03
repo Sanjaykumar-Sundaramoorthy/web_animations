@@ -1,0 +1,26 @@
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-2.5deg); }
+    50% { transform: rotate(-5eg); }
+    75% { transform: rotate(-7.5deg); }
+    100% { transform: rotate(-10deg); }
+  }
+
+  span.gentle-hover-shake:hover {
+    animation: tilt-shaking 0.25s both;
+  }
+
+  body { font-family: sans-serif; }
+
+div {
+  text-align: center;
+}
+
+
+span {
+  background: #48abe0;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1rem;
+  display: inline-block;
+}

@@ -1,0 +1,22 @@
+.light{
+    --color: #00bfff;
+}
+
+.dark{
+    background-color: #000000;
+}
+#nightmode,#sidebar-active{
+
+}
+.moon {
+    display: none;
+}
+#nightmode:checked ~ .moon{
+    display: inline;
+
+}
+#nightmode:checked ~ .sun{
+    display: none;
+}
+
+
